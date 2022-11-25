@@ -1,0 +1,19 @@
+.register-div {
+    height: 410px;
+    width: 100%;
+    padding: 100px 0px 200px 0px;
+    text-align: -webkit-center;
+    background-color: #efefef;
+}
+.card {
+    margin: 15px;
+    max-width: 500px;
+    min-height: 240px;
+}
+.head-div {
+    margin: 3px;
+}
+.form-field {
+    width: 70%;
+    margin: 9px;
+}

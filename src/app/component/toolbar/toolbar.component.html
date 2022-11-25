@@ -1,0 +1,22 @@
+<mat-toolbar>
+    <mat-toolbar-row class="head-div">
+        <div class="LTS-div">
+          <button class="button-home" routerLink="/home" mat-button>
+            <img class="logo-book" src="../assets/book_logo.png" alt="">
+            <span class="text text-book">Bookstore</span>
+          </button>
+          <form class="search-box">
+            <mat-form-field class="searchbar">
+              <input class="input-search" matInput autocomplete="off">
+            </mat-form-field>
+          </form>
+        </div>
+        <div>
+          <button class="button-cart" routerLink="/cart" mat-button>
+            <span class="text text-cart">Cart </span>
+            <img class="logo-cart" src="../assets/cart_logo.png" alt="">
+          </button>
+          <button class="button-login" routerLink="" mat-button><span class="text text-login">Singout</span></button>
+        </div>
+    </mat-toolbar-row>
+</mat-toolbar>

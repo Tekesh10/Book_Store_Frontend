@@ -1,0 +1,70 @@
+.head-div {
+    background: #A03037 0% 0% no-repeat padding-box;
+    opacity: 1;
+    height: 60px;
+    padding-left: 160px;
+    padding-right: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.LTS-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 700px;
+    width: 100%;
+}
+
+.button-home {
+    background: #A03037 0% 0% no-repeat padding-box;
+    margin-top: 25px;
+    height: 30px;
+}
+
+.logo-book {
+    height: 40px;
+}
+
+.text {
+    text-align: left;
+    font: normal normal normal 20px/26px Roboto;
+    font-family: sans-serif;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.search-box {
+    max-width: 500px;
+    width: 100%;
+}
+
+.searchbar {
+    width: 100%;
+}
+
+.input-search {
+    background: #FCFCFC 0% 0% no-repeat padding-box;
+    border-radius: 3px;
+    opacity: 1;
+    height: 33px;
+}
+
+.button-cart {
+    background: #A03037 0% 0% no-repeat padding-box;
+    justify-content: space-between;
+    height: 30px;
+}
+
+.text-cart {
+    font: normal normal normal 15px/15px Roboto;
+    font-family: sans-serif;
+    letter-spacing: 0.45px;
+}
+
+.logo-cart {
+    height: 30px;
+}

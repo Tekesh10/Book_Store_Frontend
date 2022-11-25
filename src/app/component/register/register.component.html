@@ -1,0 +1,37 @@
+<div class="register-div">
+    <mat-card class="card">
+        <mat-card-header class="head-div">
+            <mat-card-title class="text-head">New User Registration</mat-card-title>
+        </mat-card-header>
+        <form>
+            <mat-form-field class="form-field">
+                <mat-label>Enter Your First Name</mat-label>
+                <input placeholder="Aman" matInput>
+            </mat-form-field><br>
+            <mat-form-field class="form-field">
+                <mat-label>Enter Your Last Name</mat-label>
+                <input placeholder="Khan" matInput>
+            </mat-form-field><br>
+            <mat-form-field class="form-field">
+                <mat-label>Enter Your Phone Number</mat-label>
+                <input placeholder="+91 9876543210" matInput>
+            </mat-form-field><br>
+            <mat-form-field class="form-field">
+                <mat-label>Enter Your Email Id</mat-label>
+                <input type="email" placeholder="abc.def@gmail.com" matInput>
+            </mat-form-field><br>
+            <mat-form-field class="form-field">
+                <mat-label>Password</mat-label>
+                <input [type]="hide ? 'password' : 'text'" matInput>
+                <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+                    <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+                  </button>
+            </mat-form-field>
+        </form>
+        <mat-card-actions align="end">
+            <button class="button-existing" routerLink="" mat-button>Existing User</button>
+            <button class="button-register" routerLink="" mat-raised-button color="primary">Register</button>
+        </mat-card-actions>
+    </mat-card>
+</div>
+

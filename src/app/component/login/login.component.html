@@ -1,0 +1,24 @@
+<div class="login-div">
+    <mat-card class="card">
+        <mat-card-header class="head-div">
+            <mat-card-title class="text-head">User Login</mat-card-title>
+        </mat-card-header>
+        <form>
+            <mat-form-field class="form-field">
+                <mat-label>Enter Your Registered Email Id</mat-label>
+                <input type="email" placeholder="abc.def@gmail.com" matInput>
+            </mat-form-field><br>
+            <mat-form-field class="form-field">
+                <mat-label>Password</mat-label>
+                <input [type]="hide ? 'password' : 'text'" matInput>
+                <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+                    <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+                  </button>
+            </mat-form-field>
+        </form>
+        <mat-card-actions align="end">
+            <button class="button-login" routerLink="home" mat-button>Login</button>
+            <button class="button-singin" routerLink="register" mat-raised-button color="primary">Sing Up</button>
+        </mat-card-actions>
+    </mat-card>
+</div>
